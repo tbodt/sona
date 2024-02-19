@@ -12,8 +12,8 @@ importers:
         specifier: ^0.2.0
         version: 0.2.0(hono@3.12.6)
       '@hono/vite-dev-server':
-        specifier: ^0.4.0
-        version: 0.4.0(hono@3.12.6)
+        specifier: ^0.6.0
+        version: 0.6.0(hono@3.12.6)
       '@hono/zod-validator':
         specifier: ^0.1.11
         version: 0.1.11(hono@3.12.6)(zod@3.22.4)
@@ -314,8 +314,8 @@ packages:
     engines: {node: '>=14'}
     dev: false
 
-  /@hono/node-server@1.5.0:
-    resolution: {integrity: sha512-xMZW2tuHLdUtx5B28E5bsLazJe9NVU2z4QW/Xefgvg41U84r4L1mTxNutTMNwt6BrRujy7hs1aKyUpIuSqcXtQ==}
+  /@hono/node-server@1.8.0:
+    resolution: {integrity: sha512-vlebYBWAE9PVbRXps8O918Cj34F1FLCJW+ZlepcIpLKp0SRXgDZ2tpYbSoJeT/QOkKVP6TQcjfTl5rs3z88rVw==}
     engines: {node: '>=18.14.1'}
     dev: false
 
@@ -328,13 +328,13 @@ packages:
       hono: 3.12.6
     dev: false
 
-  /@hono/vite-dev-server@0.4.0(hono@3.12.6):
-    resolution: {integrity: sha512-a7lHpKAC2tCxA1ZrJTkLlqlWzJdsqRL7K2LDx3+kOB7Rq83xwkjxi4w9ww8kEsUhor7aETWb0AbeYr2e1YflRg==}
+  /@hono/vite-dev-server@0.6.0(hono@3.12.6):
+    resolution: {integrity: sha512-cs08M3pEMeHCkT9Mra4ZSDRa2PsKz4tgGcboTSDMc7dUfTXJoQvGfBRzcJcKfQ4vKI4RmH7BBYHfBXWfAp+oQg==}
     engines: {node: '>=18.14.1'}
     peerDependencies:
-      hono: '>=3.11.7'
+      hono: '*'
     dependencies:
-      '@hono/node-server': 1.5.0
+      '@hono/node-server': 1.8.0
       hono: 3.12.6
       miniflare: 3.20231218.3
       minimatch: 9.0.3
